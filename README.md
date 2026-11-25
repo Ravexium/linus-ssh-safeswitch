@@ -6,7 +6,7 @@
 
 * **双端口平滑过渡**：新旧端口同时监听，另开终端实测登录成功并输入 `YES` 后才关闭旧端口。
 * **10 分钟 / 断电自动回滚**：内置防竞态互斥锁与自包含看门狗，断网、误中断或服务器意外重启均自动还原配置与防火墙。
-* **全架构与防火墙适配**：原生兼容 `sshd_config.d` 与 Ubuntu `ssh.socket` 双层架构，自动联动 SELinux / UFW / firewalld / nftables / iptables（IPv4+IPv6）。
+* **全架构与防火墙适配**：原生兼容 Debian / Ubuntu 等主流发行版（支持 `sshd_config.d` 与 `ssh.socket` 双层架构），自动联动 SELinux / UFW / firewalld / nftables / iptables（IPv4+IPv6）。
 * **Fail2ban 动态联防**：换端后自动生成适配本机端口与防火墙的一键防爆破命令（缺包时自动补装依赖，避免“能看日志、不能拉黑”的空壳失效）。
 
 ## 快速使用
