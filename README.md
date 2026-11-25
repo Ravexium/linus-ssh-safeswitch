@@ -11,15 +11,10 @@
 
 ## 快速使用
 
-需以 `root` 身份运行：
+需以 `root` 身份运行，一键下载并启动换端（首次运行会自动安装至 `/root/linus-ssh-safeswitch.sh`）：
 
 ```bash
-# 1. 下载脚本并赋权
-curl -fsSL https://raw.githubusercontent.com/Ravexium/linus-ssh-safeswitch/main/linus-ssh-safeswitch-v1.0.sh -o /tmp/linus-ssh-safeswitch-v1.0.sh
-chmod 700 /tmp/linus-ssh-safeswitch-v1.0.sh
-
-# 2. 新机首次运行（自动安装至 /root/linus-ssh-safeswitch.sh 并启动换端）
-bash /tmp/linus-ssh-safeswitch-v1.0.sh
+curl -fsSL [https://raw.githubusercontent.com/Ravexium/linus-ssh-safeswitch/main/linus-ssh-safeswitch-v1.0.sh](https://raw.githubusercontent.com/Ravexium/linus-ssh-safeswitch/main/linus-ssh-safeswitch-v1.0.sh) -o /tmp/linus-ssh-safeswitch-v1.0.sh && bash /tmp/linus-ssh-safeswitch-v1.0.sh
 ```
 
 常用命令：
