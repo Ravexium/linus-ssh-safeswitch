@@ -14,7 +14,7 @@
 需以 `root` 身份运行，一键下载并启动换端（首次运行会自动安装至 `/root/linus-ssh-safeswitch.sh`）：
 
 ```bash
-curl -fsSL [https://raw.githubusercontent.com/Ravexium/linus-ssh-safeswitch/main/linus-ssh-safeswitch-v1.0.sh](https://raw.githubusercontent.com/Ravexium/linus-ssh-safeswitch/main/linus-ssh-safeswitch-v1.0.sh) -o /tmp/linus-ssh-safeswitch-v1.0.sh && bash /tmp/linus-ssh-safeswitch-v1.0.sh
+curl -fsSL https://raw.githubusercontent.com/Ravexium/linus-ssh-safeswitch/main/linus-ssh-safeswitch-v1.0.sh -o /tmp/linus-ssh-safeswitch-v1.0.sh && bash /tmp/linus-ssh-safeswitch-v1.0.sh
 ```
 
 常用命令：
